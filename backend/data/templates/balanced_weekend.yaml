@@ -1,0 +1,18 @@
+# Default template for normal Weekends
+name: Balanced Weekend
+
+composition:
+  - color: RED
+    percentage: 5
+
+  - color: PURPLE
+    percentage: 15
+
+  - color: YELLOW
+    percentage: 30
+
+  - color: GREEN
+    percentage: 40
+
+  - color: BLUE
+    percentage: 10
