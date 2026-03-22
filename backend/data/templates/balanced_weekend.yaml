@@ -2,17 +2,17 @@
 name: Balanced Weekend
 
 composition:
-  - color: RED
+  - domain_type: WORK
     percentage: 5
 
-  - color: PURPLE
+  - domain_type: LEARNING
     percentage: 15
 
-  - color: YELLOW
+  - domain_type: HOME
     percentage: 30
 
-  - color: GREEN
+  - domain_type: CREATIVE
     percentage: 40
 
-  - color: BLUE
+  - domain_type: ENTERTAINMENT
     percentage: 10

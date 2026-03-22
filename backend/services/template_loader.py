@@ -7,13 +7,13 @@ from pathlib import Path
 import yaml
 
 from backend.constants.paths import TEMPLATES_DIR
-from backend.models import ColorComposition, Template
+from backend.models import DomainTypeComposition, Template
 
 
 class TemplateLoader:
     """
     Loads templates from yaml files
-    Each template has a name and color composition
+    Each template has a name and domain type composition
     """
 
     @classmethod
@@ -34,7 +34,7 @@ class TemplateLoader:
         """
         data = yaml.safe_load(path.read_text())
 
-        compositions = [ColorComposition(**c) for c in data.get("composition", [])]
+        compositions = [DomainTypeComposition(**c) for c in data.get("composition", [])]
 
         template = Template(name=data["name"], composition=compositions)
         return template
