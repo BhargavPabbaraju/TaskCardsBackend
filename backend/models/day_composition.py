@@ -1,4 +1,4 @@
-"""Models for Template"""
+"""Models for DayComposition"""
 
 from dataclasses import dataclass, field
 
@@ -29,7 +29,7 @@ class DomainTypeComposition:
 
 
 @dataclass
-class Template:
+class DayComposition:
     """Defines a particular composition of domain types for the day"""
 
     name: str

@@ -36,3 +36,9 @@ build-backend = "poetry.core.masonry.api"
 [tool.pylint.main]
 ignore = [".venv", "venv", "__pycache__"]
 ignore-paths = ["^migrations/.*$"]
+
+[tool.pylint.messages_control]
+disable = [
+    "missing-module-docstring",
+    "too-few-public-methods",
+]

@@ -16,3 +16,4 @@ class DomainType(Enum):
     HEALTH = "Health"
     CREATIVE = "Creative"
     ENTERTAINMENT = "Entertainment"
+    REVIEW = "Review"
